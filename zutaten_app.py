@@ -7,7 +7,7 @@ st.title("📋 Zutaten-Such-App")
 # Excel-Datei direkt einlesen
 @st.cache_data
 def lade_daten():
-    return pd.read_excel("/Users/markussailer/Desktop/WW/Liste.xlsx")
+    return pd.read_excel("Liste.xlsx")
 
 df = lade_daten()
 
